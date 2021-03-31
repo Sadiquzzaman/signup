@@ -1,0 +1,19 @@
+.background-card{
+    padding: 2rem 0 2rem 0 !important;
+    border-radius: 1px !important;
+    background-color: rgb(243, 241, 241);
+    .mini-card{
+        background-color: rgba(221, 220, 220, .7);
+        border-radius: 0px !important;
+        .sign-up-top{
+            font-weight: bold;
+            color: rgb(15, 171, 115);
+        }
+        .input-header{
+            color: rgb(61, 61, 61);
+        }
+        .firstName-input{
+            height: 2.5rem;
+        }
+    }
+}

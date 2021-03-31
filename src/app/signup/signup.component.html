@@ -1,0 +1,63 @@
+<mat-card class="background-card">
+<div fxLayout="row" fxLayoutAlign="center center">
+    <div fxFlex="70">
+
+            <mat-card class="mini-card" fxLayout="row" fxLayoutAlign="space-between center">
+                <div fxLayout="column" fxLayoutAlign="space-between start">
+                    <img src="../../assets/logo1.png" alt="Logo of Ebonear" height="70px">
+                    <p class="sign-up-top">Create Your Ebonear Account!</p>
+                    <form>
+
+                        <div fxLayout="row" fxLayoutGap="3%">
+                            <div fxFlex fxLayout="column" fxLayoutGap="1%">
+                              <mat-label class="input-header" fxFlex>First Name</mat-label>
+                              <mat-form-field fxFlex appearance="outline">
+                                <input class="firstName-input"
+                                  matInput
+                                  name="firstName"
+                                  required
+                                  placeholder="Write your first name"
+                                />
+                              </mat-form-field>
+                            </div>
+                  
+                            <div fxFlex fxLayout="column" fxLayoutGap="4%">
+                              <mat-label class="input-header">Last Name</mat-label>
+                              <mat-form-field appearance="outline">
+                                <input class="firstName-input" matInput name="lastName"
+                                  required
+                                  placeholder="Write your last name"
+                                />
+                              </mat-form-field>
+                            </div>
+                          </div>
+
+                          <div fxLayout="row" fxLayoutGap="3%">
+                            <div fxFlex="35%" fxLayout="column" fxLayoutGap="1%">
+                                <mat-label>Gender</mat-label>
+                                <mat-form-field appearance="outline">
+                                  <mat-select formControlName="gender" placeholder="Select">
+                                    <mat-option *ngFor="let gender of genders" [value]="gender.value">
+                                      {{ gender.label }}
+                                    </mat-option>
+                                  </mat-select>
+                                </mat-form-field>
+                            </div>
+                            
+                          </div>
+                          
+                    </form>
+                </div>
+
+
+                <div fxLayout="column" fxLayoutAlign="center center" fxFlex="40">
+                    <p>sjefyhsghsrf</p>
+                    <p>sjefyhsghsrf</p>
+                    <p>sjefyhsghsrf</p>
+                    <p>sjefyhsghsrf</p>
+                </div>
+            </mat-card>
+            
+    </div>
+</div> 
+</mat-card>  
